@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+    color : black
 }
 
 .header {
     background-color: #333;
-    color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,12 +32,10 @@ body {
 }
 
 .header nav ul li a {
-    color: #fff;
     text-decoration: none;
 }
 
 h1 {
-    color: #ffffff;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
@@ -45,7 +43,6 @@ h1 {
 }
 
 p {
-    color: #ffffff;
     font-size: 1.2em;
     line-height: 1.5;
     text-align: justify;
@@ -68,20 +65,17 @@ p {
 }
 
 .event-info h2 {
-    color: #ffffff;
     font-size: 2em;
     margin-bottom: 10px;
 }
 
 .event-info .date,
 .event-info .location {
-    color: #ffffff;
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
 .event-info .description {
-    color: #ffffff;
     font-size: 1.2em;
     line-height: 1.5;
     text-align: justify;
