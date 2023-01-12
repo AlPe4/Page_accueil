@@ -109,3 +109,14 @@ footer a {
     text-decoration: none;
     color: #ffffff;
 }
+
+#countdown {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #countdown p {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
