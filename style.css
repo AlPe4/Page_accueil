@@ -81,3 +81,14 @@ p {
     text-align: justify;
     margin-bottom: 10px;
 }
+
+#countdown {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+#countdown p {
+    display: inline-block;
+    margin: 0 20px;
+}
+  
