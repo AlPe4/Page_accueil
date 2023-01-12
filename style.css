@@ -1,37 +1,89 @@
 body {
     margin: 0;
     padding: 0;
-  }
-  
-  .header {
+}
+
+.header {
     background-color: #333;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-  }
-  
-  .header img {
-    height: 50px;
-  }
-  
-  .header nav {
+}
+
+.header img {
+    height: 50px;   
+}
+
+.header nav {
     margin-left: 20px;
-  }
-  
-  .header nav ul {
+}
+
+.header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-  }
-  
-  .header nav ul li {
+}
+
+.header nav ul li {
     margin-right: 20px;
-  }
-  
-  .header nav ul li a {
+}
+
+.header nav ul li a {
     color: #fff;
     text-decoration: none;
-  }
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0;
+}
+
+p {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.event img {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.event-info {
+    width: 60%;
+}
+
+.event-info h2 {
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.event-info .date,
+.event-info .location {
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.event-info .description {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 10px;
+}
