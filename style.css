@@ -81,3 +81,31 @@ p {
     text-align: justify;
     margin-bottom: 10px;
 }
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+    
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
