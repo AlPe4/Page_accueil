@@ -120,3 +120,10 @@ footer a {
     margin: 0 20px;
   }
   
+  .div-image {
+    text-align: center;
+  }
+  
+  .image{
+    width: 30%;
+  }
